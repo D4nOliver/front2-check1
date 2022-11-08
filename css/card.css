@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  --background: rgb(23, 27, 31);
+  --backgroundForm: rgb(30, 33, 38);
+  --lightTxt: white;
+  --btns: gray;
+  padding-bottom: 20px;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background);
+  gap: 30px;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  flex-direction: column;
+  gap: 10px;
+}
+.card {
+  width: 90%;
+  height: 90%;
+  color: white;
+
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--backgroundForm);
+}
+.imgCard {
+  width: 95%;
+}
+
+.novoCard {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: var(--backgroundForm);
+  border: 0;
+  color: white;
+  font-size: 30px;
+}
+
+#irListaCards {
+  color: white;
+}

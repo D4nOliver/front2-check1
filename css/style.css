@@ -62,38 +62,3 @@ input {
   transform: scale(1.1);
   transition: 0.5s;
 }
-
-.container {
-  width: 80%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: brown;
-  flex-direction: column;
-  gap: 10px;
-}
-.card {
-  width: 90%;
-  height: 90%;
-  color: white;
-
-  padding: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--backgroundForm);
-}
-.imgCard {
-  width: 95%;
-}
-
-.novoCard {
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  background-color: var(--backgroundForm);
-  border: 0;
-  color: white;
-  font-size: 30px;
-}
