@@ -9,7 +9,7 @@
   --backgroundForm: rgb(30, 33, 38);
   --lightTxt: white;
   --btns: gray;
-  padding-bottom: 20px;
+  
 }
 
 body {
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   background-color: var(--background);
   gap: 30px;
-  padding-bottom: 20px;
+  
 }
 form {
   border-radius: 15px;
