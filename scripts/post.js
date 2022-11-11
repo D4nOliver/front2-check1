@@ -1,8 +1,8 @@
-let container = document.querySelector(".container");
-let newCard = document.createElement("div");
-let img = document.createElement("img");
-let h1 = document.createElement("h1");
-let p = document.createElement("p");
+const container = document.querySelector(".container");
+const newCard = document.createElement("div");
+const img = document.createElement("img");
+const h1 = document.createElement("h1");
+const p = document.createElement("p");
 
 newCard.classList.add("card");
 img.classList.add("imgCard");
