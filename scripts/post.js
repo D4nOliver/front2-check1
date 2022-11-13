@@ -6,6 +6,7 @@ let infoCards = [
 lightning <br> -Although the future is a little bit frightening <br> -It's the book of your life that you're writing`,
   },
 ];
+
 for (let i in infoCards) {
   const container = document.querySelector(".container");
   const newCard = document.createElement("div");
