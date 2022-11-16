@@ -7,6 +7,16 @@ let erroDesc = true
 let erroImg = true
 let erroTitulo = true
 
+
+function reset () {
+  cardDesc.value = "";
+  cardTitulo.value = "";
+  cardImg.value = "";
+  cardTitulo.style.backgroundColor = "rgb(70, 69, 69)";
+  cardImg.style.backgroundColor = "rgb(70, 69, 69)";
+  cardDesc.style.backgroundColor = "rgb(70, 69, 69)";
+}
+
 enviar.addEventListener("click", function (evento) {
   evento.preventDefault();
   let cardTitulo = document.getElementById("cardTitulo").value;
@@ -25,6 +35,7 @@ enviar.addEventListener("click", function (evento) {
         <p class="desc">${cardDesc}</p>
       </div>
     `;
+    reset()
   }
 });
 
