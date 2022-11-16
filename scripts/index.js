@@ -33,10 +33,10 @@ cardTitulo.addEventListener("blur", function () {
 
   if (cardTitulo.value.length >= 4) {
     erroTitulo = false
-    cardTitulo.style.backgroundColor = "#69C466";
+    cardTitulo.style.backgroundColor = "greenyellow";
     tituloValidacao.innerText = "";
     validacao();
-    cardTitulo.style.color = "black";
+    cardTitulo.style.color = "rgb(70, 69, 69)";
   } else {
     cardTitulo.style.backgroundColor = "#EB5D5D";
     tituloValidacao.innerText = "Minimo de 4 caracteres";
@@ -52,16 +52,16 @@ cardImg.addEventListener("blur", function () {
   let imgValidacao = document.getElementById("imgValidacao");
   if (cardImg.value.length >= 1) {
     erroImg = false;
-    cardImg.style.backgroundColor = "#69C466";
+    cardImg.style.backgroundColor = "greenyellow";
     imgValidacao.innerText = "";
-    cardImg.style.color = "black";
+    cardImg.style.color = "rgb(70, 69, 69)";
     validacao();
   } else {
     cardImg.style.backgroundColor = "#EB5D5D";
     imgValidacao.innerText = "Minimo de 1 caractere";
     imgValidacao.style.fontWeight = "bold";
     imgValidacao.style.color = "#EB5D5D";
-    cardImg.style.color = "black";
+    cardImg.style.color = "rgb(70, 69, 69)";
     erroImg = true;
     validacao();
   }
@@ -71,9 +71,9 @@ cardDesc.addEventListener("blur", function () {
   let descValidacao = document.getElementById("descValidacao");
   if (cardDesc.value.length >= 4) {
     erroDesc = false;
-    cardDesc.style.backgroundColor = "#69C466";
+    cardDesc.style.backgroundColor = "greenyellow";
     descValidacao.innerText = "";
-    cardDesc.style.color = "black";
+    cardDesc.style.color = "rgb(70, 69, 69)";
     validacao();
   } else {
     cardDesc.style.backgroundColor = "#EB5D5D";

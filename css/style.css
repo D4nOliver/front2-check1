@@ -22,8 +22,7 @@ body {
 }
 form {
   border-radius: 15px;
-  padding: 40px;
-  height: 432px;
+  padding: 40px;qqq
   width: 432px;
   background-color: var(--backgroundForm);
   display: flex;
@@ -50,7 +49,7 @@ input {
   border: none;
   font-size: 1.8rem;
   color: var(--lightTxt);
-  background-color: rgb(0, 136, 221);
+  background-color: rgb(147, 45, 182);
   cursor: pointer;
 }
 .submit:disabled {
