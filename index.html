@@ -14,13 +14,30 @@
         Imagens aleatorias e descrições de mal gosto, volume <span>1</span>
       </h1>
       <input id="cardTitulo" type="text" placeholder="Título" />
+      <small id="tituloValidacao"></small>
       <input id="cardImg" type="text" placeholder="URL da Imagem" />
+      <small id="imgValidacao"></small>
       <input id="cardDesc" type="text" placeholder="Descrição" />
-      <input id="cardSubmit" type="submit" class="submit submit_hover" />
+      <small id="descValidacao"></small>
+      <input disabled id="cardSubmit" type="submit" class="submit" />
     </form>
 
-    <a href="./post.html" class="irListaCards"
-      ><button class="irListaCards">lista de cards</button></a
-    >
+    <hr>
+    <div id="container">
+      <div class="card">
+        <img
+          class="imgCard"
+          src="https://i.pinimg.com/originals/c9/66/5c/c9665cadeb7a1fc8b18a68d120de4ece.jpg"
+          alt=""
+        />
+        <h1 class="titulo">KUNG FU GATO</h1>
+        <p class="desc">
+          -Everybody is kung fu fighting (hoo, huh) <br />
+          -Your mind becomes fast as lightning <br />
+          -Although the future is a little bit frightening <br />
+          -It's the book of your life that you're writing
+        </p>
+      </div>
+    </div>
   </body>
 </html>
